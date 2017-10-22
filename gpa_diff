@@ -1,0 +1,8 @@
+def differenceinGPA(avg_GPA_expected, avg_GPA_received):
+   difference = avg_GPA_received-avg_GPA_expected
+   if difference < 0.5:
+       return '#E31F1F '
+   elif difference > 0.5:
+       return '#42E216 '
+   else:
+       return '#101110 '
