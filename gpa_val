@@ -1,0 +1,18 @@
+def GPA_val_to_grade(val):
+   if val > 3.7:
+       grade = 'A'
+   elif val > 3.3:
+       grade = 'A-'
+   elif val > 3.0:
+       grade = 'B+'
+   elif val > 2.7:
+       grade = 'B'
+   elif val > 2.3:
+       grade = 'B-'
+   elif val > 2.0:
+       grade = 'C+'
+   elif val > 1.7:
+       grade = 'C'
+   elif val > 1.0:
+       grade = 'D'
+   return grade
