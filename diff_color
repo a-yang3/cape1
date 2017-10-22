@@ -1,0 +1,8 @@
+def diff_to_color(diff)
+   if diff > 0.6:
+       color = green
+   elif abs(diff) < 0.6:
+       color = black
+   else:
+       color = red
+   return color
