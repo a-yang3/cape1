@@ -1,0 +1,8 @@
+rank = ranking[code]
+       hours = time[code]['time']
+       time_color = time[code]['color']
+       time_statement = time[code]['statement']
+
+       expected_grade = grade[code]['expected_letter_grade']
+       grade_color = grade[code]['color']
+       grade_statement = grade[code]['color']
